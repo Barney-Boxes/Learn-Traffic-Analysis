@@ -18,6 +18,7 @@
 * Syslog
 * Logstash
 * Fluentd
+* Wazuh
 * \[MEMBERSHIP-REQUIRED\] Fortigate
 * \[MEMBERSHIP-REQUIRED\] Palo Alto FireWall
 * \[MEMBERSHIP-REQUIRED\] McAfee
@@ -96,6 +97,7 @@ When ready, create a pull request to merge the branch & delete it.
   - Kismet
   - Open DLP
   - SAGAN
+  - Wazuh
   - \[MEMBERSHIP-REQUIRED\] Fortigate
   - \[MEMBERSHIP-REQUIRED\] Palo Alto FireWall
   - \[MEMBERSHIP-REQUIRED\] McAfee
