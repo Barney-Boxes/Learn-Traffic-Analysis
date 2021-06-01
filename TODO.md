@@ -3,6 +3,7 @@
 * ELK Stack
 * WireShark
 * TShark
+* Tcpdump
 * SiLK/NetFlow/SFlow data tools
 * Snort
 * OSSEC
@@ -90,6 +91,7 @@ When ready, create a pull request to merge the branch & delete it.
   - ELK Stack
   - WireShark
   - TShark
+  - Tcpdump
   - SiLK/NetFlow/SFlow data tools
   - Snort
   - OSSEC
