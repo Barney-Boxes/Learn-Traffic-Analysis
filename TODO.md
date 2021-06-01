@@ -18,7 +18,12 @@
 * Syslog
 * Logstash
 * Fluentd
+* [Riemann](https://riemann.io/concepts.html)
 * Wazuh
+* Tripwire
+* osquery
+* [artillery](https://github.com/BinaryDefense/artillery)
+* [MozDef](https://github.com/jeffbryner/mozdef)
 * \[MEMBERSHIP-REQUIRED\] Fortigate
 * \[MEMBERSHIP-REQUIRED\] Palo Alto FireWall
 * \[MEMBERSHIP-REQUIRED\] McAfee
@@ -98,6 +103,10 @@ When ready, create a pull request to merge the branch & delete it.
   - Open DLP
   - SAGAN
   - Wazuh
+  - Tripwire
+  - osquery
+  - [artillery](https://github.com/BinaryDefense/artillery)
+  - [MozDef](https://github.com/jeffbryner/mozdef)
   - \[MEMBERSHIP-REQUIRED\] Fortigate
   - \[MEMBERSHIP-REQUIRED\] Palo Alto FireWall
   - \[MEMBERSHIP-REQUIRED\] McAfee
