@@ -29,6 +29,12 @@ sudo /opt/splunk/bin/splunk start --accept-license
 #Create a Username
 #Create a Password
 #Navigate to the Splunk Web Interface, specified at the bottom
+
+sudo vim $SPLUNK_HOME/etc/system/local/user-seed.conf
+# Add the following to the file (Minus the "#"'s)
+# [user_info]
+# USERNAME = admin
+# PASSWORD = <your new password>
 ```
 
 ## Configure to start at boot time
