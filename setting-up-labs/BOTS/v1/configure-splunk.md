@@ -55,6 +55,33 @@ sudo vim $SPLUNK_HOME/etc/system/local/user-seed.conf
 ## Upload BOTS Data Set
 [Download](https://s3.amazonaws.com/botsdataset/botsv1/botsv1.json.gz) the BOTS v1 data set (11.3 GB)
 
+```
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.WinEventLog-Application.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.WinEventLog-Security.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.WinEventLog-System.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.XmlWinEventLog-Microsoft-Windows-Sysmon-Operational.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.fgt_event.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.fgt_traffic.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.fgt_utm.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.iis.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.nessus-scan.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-dhcp.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-dns.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-http.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-icmp.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-ip.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-ldap.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-mapi.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-sip.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-smb.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-snmp.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.stream-tcp.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.suricata.json.gz
+https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.winregistry.json.gz
+
+wget -v --input-file=./bots_urls 
+```
+
 |                  Splunk Sourcetype                  |                                                        Compressed JSON file                                                       |
 |:---------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|
 | WinEventLog:Application                             | https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.WinEventLog-Application.json.gz                             |
