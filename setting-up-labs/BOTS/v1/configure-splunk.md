@@ -53,4 +53,4 @@ sudo vim $SPLUNK_HOME/etc/system/local/user-seed.conf
 | URL Toolbox                                                                                  | 1.6     | https://splunkbase.splunk.com/app/2734/ |
 
 ## Upload BOTS Data Set
-
+[Download](https://s3.amazonaws.com/botsdataset/botsv1/botsv1.json.gz) the BOTS v1 data set (11.3 GB)
