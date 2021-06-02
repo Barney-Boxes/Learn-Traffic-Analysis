@@ -46,6 +46,7 @@ Describe SIP architecture devices
 3. 2 UA clients connected via SIP Proxy (stateless), All in one
 4. 2 UA clients connected via Redirect Server, SIP Proxy, Registrar
 5. Setting up and using SIPvicious
+6. Setting up and using eyeBeam
 
 ## Attacks
 ### 
