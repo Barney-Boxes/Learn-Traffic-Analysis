@@ -45,6 +45,7 @@ Describe SIP architecture devices
 2. 2 UA clients connected via SIP Proxy (stateful), All in one
 3. 2 UA clients connected via SIP Proxy (stateless), All in one
 4. 2 UA clients connected via Redirect Server, SIP Proxy, Registrar
+5. Setting up and using SIPvicious
 
 ## Attacks
 ### 
