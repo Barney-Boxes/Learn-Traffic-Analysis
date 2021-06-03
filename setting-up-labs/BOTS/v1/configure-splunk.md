@@ -80,6 +80,8 @@ https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.suricata.j
 https://s3.amazonaws.com/botsdataset/botsv1/json-by-sourcetype/botsv1.winregistry.json.gz
 
 wget -v --input-file=./bots_urls 
+
+split -b 500m botsv1*
 ```
 
 |                  Splunk Sourcetype                  |                                                        Compressed JSON file                                                       |
