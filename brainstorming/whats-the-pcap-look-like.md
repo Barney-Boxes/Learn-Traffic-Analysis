@@ -17,4 +17,4 @@
 5. Cobalt Strike
     - Default Certificate
     - Custom Certificate?
-6. 
+6. Ursnif
